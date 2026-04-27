@@ -1,0 +1,67 @@
+# =========================
+# Python & Environment
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment Variables / Secrets
+.env
+.env.*
+.flaskenv
+
+# =========================
+# Jupyter Notebooks
+# =========================
+.ipynb_checkpoints/
+profile_default/
+ipython_config.py
+
+# =========================
+# IDEs & OS Files
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# =========================
+# Logs & Databases
+# =========================
+*.log
+*.sqlite3
+*.db
+
+# =========================
+# Project Specific & Data
+# =========================
+# Ignore zip files (like the models.zip you uploaded earlier)
+*.zip
+*.tar.gz
+*.rar
+
+# NLTK Data (if downloaded locally into the project directory)
+nltk_data/
+# ----------------------------------------------------------------------
+# NOTE ON MACHINE LEARNING MODELS:
+# GitHub blocks files larger than 100MB. If your `.sav` or `.pkl` files 
+# inside the `model/` folder get too large, uncomment the lines below 
+# and use Git LFS (Large File Storage) or an S3 bucket instead.
+# ----------------------------------------------------------------------
+# model/*.sav
+# model/*.pkl
